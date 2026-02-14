@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula One UMass</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --f1-red: #e10600;
+            --tire-grey: #9aa2ae;
+            --chalk: #f3f7fa;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(180deg, #050608 0%, #0a0d15 45%, #050608 100%);
+            color: var(--chalk);
+            min-height: 100vh;
+            padding: clamp(2.5rem, 5vw, 4rem) clamp(1.5rem, 6vw, 6rem) clamp(3rem, 8vw, 6rem);
+        }
+
+        .frame {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(10, 14, 22, 0.92);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
+            padding: clamp(2rem, 4vw, 3rem);
+            display: grid;
+            gap: 1.2rem;
+        }
+
+        a.back-link {
+            color: var(--tire-grey);
+            text-decoration: none;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+        }
+
+        a.back-link:hover {
+            color: var(--chalk);
+        }
+
+        h1 {
+            font-family: 'Titillium Web', sans-serif;
+            font-size: clamp(2.2rem, 4vw, 3rem);
+            margin: 0;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        .lead {
+            margin: 0;
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: rgba(243, 247, 250, 0.82);
+        }
+
+        .cta {
+            display: inline-block;
+            padding: 0.85rem 1.2rem;
+            border-radius: 12px;
+            background: linear-gradient(120deg, var(--f1-red), #ff4d4d);
+            color: #fff;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-decoration: none;
+            text-align: center;
+            max-width: 220px;
+        }
+
+        .note {
+            margin: 0;
+            color: var(--tire-grey);
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <a class="back-link" href="index.html">← Back to Home</a>
+        <div>
+            <h1>Formula One UMass</h1>
+            <!-- Edit this description with your real impact statement -->
+            <p class="lead">President-led team focusing on innovation, sponsorships, and scaling member impact. Grew the organization 5x while building a fast, cohesive culture around Formula One tech and events.</p>
+        </div>
+        <div>
+            <!-- Swap the href below with your live GitHub Pages link if it changes -->
+            <a class="cta" href="https://spunshi24.github.io/Formula-One-Umass/" target="_blank" rel="noopener">View Website</a>
+            <p class="note">Linking to the Formula One UMass site.</p>
+        </div>
+    </div>
+</body>
+</html>
